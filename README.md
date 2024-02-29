@@ -1,4 +1,4 @@
-# Batch-Modify-File-Names  
+# Batch-Modify-File-Names
 本程序为在单文件夹内批量修改文件名提供了一些功能  
 功能如下:  
 1-在开头增加指定字符串  
