@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pQLbUeOdjaWZQAKP6N33JXxpm/vslWGYERB3EYrfw/e0m1r1JzUrxhRKwiEad65IIKnFLdld7biQeRvzEP54hw==",
+  "dgSpecHash": "GcSrupkkfp1ZYOsF+oyh+xIFS0DJqQE8qyP3P0Kl0hGrTHZT5JjYOZX3k3RvaFw0hkiuMXuXeRj6L9IS/wBzYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\批量修改文件名.vbproj",
+  "projectFilePath": "C:\\Users\\19603\\Desktop\\批量修改文件名\\批量修改文件名.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\19603\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
     "C:\\Users\\19603\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
