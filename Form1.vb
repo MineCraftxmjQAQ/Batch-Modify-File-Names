@@ -459,6 +459,23 @@ Public Class Form1
             ListBox3.SelectedItem = ListBox3.Items(ListBox3.Items.Count - 1)
         End If
     End Sub
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        MsgBox("1.点击打开文件夹按钮,在弹出的对话框中选择需要批量修改文件名的文件夹路径(该路径不能为程序所在文件夹)" +
+               vbCrLf + vbCrLf + "2.点击获取文件列表按钮,程序会导入该文件夹下的全部文件名并在左侧列表(程序不遍历子文件夹,不导入没有后缀名的文件,最多可导入一百万个文件,文件数量大于一百万时仅列表已导入的一百万个)" +
+               vbCrLf + vbCrLf + "3.点击中央列表选择需要使用的功能,并在下方亮起的文本框中输入修改的条件(需要全部输入,字符串不接受非法字符,其他只接受数字)" +
+               vbCrLf + vbCrLf + "4.点击保存修改内容按钮,程序会根据修改条件对符合的文件名进行修改编排,并将修改后的文件名显示在右侧列表中" +
+               vbCrLf + vbCrLf + "5.点击开始批量修改按钮,程序会根据右侧列表对原文件名进行修改操作" +
+               vbCrLf + vbCrLf + "6.当程序出现错误时,程序会弹出错误处理对话框,请用户根据对话框提示操作" +
+               vbCrLf + vbCrLf + "7.用户和程序的所有主要操作均可在主界面最下方的状态栏查看", 0 + vbInformation + vbSystemModal, "说明")
+    End Sub
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        MsgBox("当前程序版本:批量修改文件名V1.0.5" + vbCrLf + "本程序仅且只可用于学习交流,禁止用于任何商业及违法用途", 0 + vbInformation + vbSystemModal, "关于")
+    End Sub
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        MsgBox("V1.0.5" + vbCrLf + "修复部分显示逻辑错误" + vbCrLf + "优化程序运行速度" +
+                vbCrLf + vbCrLf + "V1.0.1" + vbCrLf + "修复在极端情况下使用部分功能会产生致命错误的问题" + vbCrLf + "文件最大导入数量增加至一百万个" +
+                vbCrLf + vbCrLf + "V1.0.0" + vbCrLf + "初代版本", 0 + vbInformation + vbSystemModal, "程序更新日志")
+    End Sub
     Private Sub ListBox4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox4.SelectedIndexChanged
         ListBox2.Items.Clear()
         Button3.Enabled = True

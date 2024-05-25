@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\19603\\Desktop\\批量修改文件名\\批量修改文件名.vbproj": {}
+    "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\批量修改文件名.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\19603\\Desktop\\批量修改文件名\\批量修改文件名.vbproj": {
+    "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\批量修改文件名.vbproj": {
       "version": "1.0.5",
       "restore": {
-        "projectUniqueName": "C:\\Users\\19603\\Desktop\\批量修改文件名\\批量修改文件名.vbproj",
+        "projectUniqueName": "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\批量修改文件名.vbproj",
         "projectName": "批量修改文件名",
-        "projectPath": "C:\\Users\\19603\\Desktop\\批量修改文件名\\批量修改文件名.vbproj",
+        "projectPath": "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\批量修改文件名.vbproj",
         "packagesPath": "C:\\Users\\19603\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\19603\\Desktop\\批量修改文件名\\obj\\",
+        "outputPath": "C:\\Users\\19603\\Desktop\\批量修改文件名V1.0.5\\原始工程文件\\批量修改文件名\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\19603\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,19 +58,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.27, 6.0.27]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.27, 6.0.27]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +81,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

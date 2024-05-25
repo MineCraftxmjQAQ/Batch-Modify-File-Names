@@ -39,6 +39,9 @@ Partial Class Form1
         Label4 = New Label()
         Button4 = New Button()
         ListBox4 = New ListBox()
+        Button5 = New Button()
+        Button6 = New Button()
+        Button7 = New Button()
         SuspendLayout()
         ' 
         ' ListBox1
@@ -83,6 +86,7 @@ Partial Class Form1
         ' ListBox3
         ' 
         ListBox3.FormattingEnabled = True
+        ListBox3.HorizontalScrollbar = True
         ListBox3.ItemHeight = 17
         ListBox3.Location = New Point(12, 600)
         ListBox3.Name = "ListBox3"
@@ -188,11 +192,41 @@ Partial Class Form1
         ListBox4.Size = New Size(280, 412)
         ListBox4.TabIndex = 32
         ' 
+        ' Button5
+        ' 
+        Button5.Location = New Point(483, 340)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(121, 24)
+        Button5.TabIndex = 33
+        Button5.Text = "程序使用说明"
+        Button5.UseVisualStyleBackColor = True
+        ' 
+        ' Button6
+        ' 
+        Button6.Location = New Point(483, 370)
+        Button6.Name = "Button6"
+        Button6.Size = New Size(121, 24)
+        Button6.TabIndex = 34
+        Button6.Text = "关于本程序"
+        Button6.UseVisualStyleBackColor = True
+        ' 
+        ' Button7
+        ' 
+        Button7.Location = New Point(483, 400)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(121, 24)
+        Button7.TabIndex = 35
+        Button7.Text = "程序更新日志"
+        Button7.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1373, 717)
+        Controls.Add(Button7)
+        Controls.Add(Button6)
+        Controls.Add(Button5)
         Controls.Add(ListBox4)
         Controls.Add(Button4)
         Controls.Add(Label4)
@@ -235,4 +269,7 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents ListBox4 As ListBox
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class

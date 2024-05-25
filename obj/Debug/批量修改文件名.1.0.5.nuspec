@@ -16,7 +16,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\Users\19603\Desktop\批量修改文件名\bin\Debug\net6.0-windows\批量修改文件名.runtimeconfig.json" target="lib\net6.0-windows7.0\批量修改文件名.runtimeconfig.json" />
-    <file src="C:\Users\19603\Desktop\批量修改文件名\bin\Debug\net6.0-windows\批量修改文件名.dll" target="lib\net6.0-windows7.0\批量修改文件名.dll" />
+    <file src="C:\Users\19603\Desktop\批量修改文件名V1.0.5\原始工程文件\批量修改文件名\bin\Debug\net6.0-windows\批量修改文件名.runtimeconfig.json" target="lib\net6.0-windows7.0\批量修改文件名.runtimeconfig.json" />
+    <file src="C:\Users\19603\Desktop\批量修改文件名V1.0.5\原始工程文件\批量修改文件名\bin\Debug\net6.0-windows\批量修改文件名.dll" target="lib\net6.0-windows7.0\批量修改文件名.dll" />
   </files>
 </package>
